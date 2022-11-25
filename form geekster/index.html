@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEEKSTER ASSIGNMENT Form</title>
+</head>
+<body>
+    <form action="Submit">
+        <fieldset>
+            <legend>Personel details</legend>
+            <label for="salutation">Salutation</label><br>
+            <select required>
+                <option value="">--None--</option>
+                <option value="Mr">MR</option>
+                <option value="Mrs">MRS</option>
+                <option value="smt">SMT</option>
+            </select><br><br>
+
+
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname" required></input><br><br>
+
+
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" id="lname" required></input><br><br>
+
+            <label for="gender">Gender: </label>
+
+            <input type="radio" name="male" id="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female" required>
+            <label for="male">female</label><br><br>
+
+            <label for="E-mail">E-mail</label>
+            <input type="text" name="email" id="email" required><br><br>
+
+            <label for="Date">Date: </label>
+            <input type="date" name="date" id="date" required><br><br>
+
+
+            <label for="Address">Address: </label><br>
+            <textarea id="Address" name="address" rows="10" cols="25"></textarea><br>
+
+            <input type="submit">
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
